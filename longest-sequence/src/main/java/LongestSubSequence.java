@@ -16,7 +16,7 @@ public class LongestSubSequence {
 
     public static void main(){
         int[] arr = {3,10,2,1,20};
-        System.out.println(longestSubSeq(arr, 0, arr.length,-999999));
+        System.out.println(longestSubSeq(arr, 0, arr.length,Integer.MIN_VALUE));
 
     }
 }
